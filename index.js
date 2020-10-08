@@ -9,11 +9,10 @@ app.use(express.json());
 
 
 
-/*const apiRoute = require('./routes/api/apiroutes');
+const apiRoute = require('./routes/api/apiroutes');
 const { urlencoded } = require('body-parser');
 
 app.use('/api',apiRoute);
-*/
 
 app.listen(port,()=>{
     console.log("Aplicación corriendo en puerto : "+ port);
